@@ -1,0 +1,17 @@
+name: Publish
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  verify:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Say hello
+        run: echo "Hello"
+      - run: whoami
+      - run: w
+      - run: pwd
+      - run: ls -al
+      - run: ls -al /
