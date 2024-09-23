@@ -17,3 +17,5 @@ jobs:
       - run: docker --version
       - run: java -version
       - run: python --version
+      - run: docker ps
+      - run: docker images
